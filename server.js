@@ -94,6 +94,9 @@ app.get('/api/retention', (req, res) => {
   });
 })
 
+app.get('/', (req, res) => {
+  res.send('all work is good')
+})
 
 // app.get("/createdb", (req, res) => {
 //   let sql = "create database nodemysql";
